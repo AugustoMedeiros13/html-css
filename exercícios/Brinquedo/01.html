@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            text-align: center;
+        }
+        body{
+            background-color: gray;
+            color: black;
+        }
+    </style>
+    <title>Meu Mundo</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <h1>Aqui vamos trabalhar com <q><mark>Imagens Dinâmicas</mark></q></h1> <!--Praticado-->
+    <p>Vou colocar diferentes <abbr title="Se estiver no computador, basta aumentar e/ou diminuir o zoom">imagens</abbr> em diferentes tamanhos para quê simule os diferentes <abbr title="celulares, tablets, computadores e tv's">dispositivos</abbr> à entrarem no site</p>
+    <picture>
+        <source media="(max-width: 150px)" srcset="imgs/foto-1.png" type="image/png">
+        <source media="(max-width: 250px)" srcset="imgs/foto-2.png" type="image/png">
+        <source media="(max-width: 350px)" srcset="imgs/foto-3.png" type="image/png">
+        <source media="(max-width: 450px)" srcset="imgs/foto-4.png" type="image/png">
+        <source media="(max-width: 550px)" srcset="imgs/foto-5.png" type="image/png">
+        <source media="(max-width: 650px)" srcset="imgs/foto-6.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="imgs/foto-7.png" type="image/png">
+        <source media="(max-width: 850px)" srcset="imgs/foto-8.png" type="image/png">
+        <source media="(max-width: 950px)" srcset="imgs/foto-9.png" type="image/png">
+        <img src="imgs/foto-10.png" alt="Imagem Flexível">
+    </picture>
+    <hr>
+    <h1>Aprendendo a colocar áudio no seu navegador:</h1> <!--Praticado-->
+        <p>Esta forma de colocar áudio no seu navegador consiste apenas em utilizar a tag <q>&lt;audio src=" "&gt;</q></p>
+    <audio src="musica-2.mp3" controls loop></audio>
+    <br>
+    <audio src="musica-3.mp3" controls loop></audio>
+    <br>
+    <audio src="musica-4.mp3" controls loop></audio>
+    <br>
+    <audio src="musica-5.mp3" controls loop></audio>
+    <br>
+    <audio src="musica-6.mp3" controls loop></audio>
+    <br>
+    <audio src="musica-7.mp3" controls loop></audio>
+    <br>
+    <audio src="musica-8.mp3" controls loop></audio>
+    <br>
+    <audio src="musica-9.mp3" controls loop></audio>
+    <br>
+    <audio src="musica-10.mp3" controls loop></audio>
+    <h1>Agora demonstrarei o que se deve fazer caso o navegador do cliente não seja compatível com o formato típico de <q><mark>mp3 ou mpeg</mark></q>:</h1>
+    <p>Aqui eu colocarei diversos formatos de arquivo como <q>mp3</q>, <q>ogg</q> e <q>wav</q>, assim; caso o navegador do cliente não seja compatível com um formato ele rodará o outro. <br> </p>
+    E caso o navegador não seja capaz de reproduzir nenhum dos formatos, aparecerá a seguinte mensagem escrita em um <abbr title="&lt;p&gt;">parágrafo:</abbr> <br>
+    <p>Infelizmente o seu navegador não é capaz de reproduzir áudio<br>
+        <a href="musica-2.mp3" target="_blank">Clique aqui</a> para instalar o áudio! </p>
+    <audio preload="metadata" controls>
+        <source src="musica-2.mp3" type="audio/mp3">
+        <source src="musica-2.mp3" type="audio/ogg">
+        <source src="musica-2.mp3" type="audio/wav">
+        <p>Infelizmente o seu navegador não é capaz de reproduzir áudio<br>
+        <a href="musica-2.mp3" target="_blank">Clique aqui</a> para instalar o áudio! </p>
+    </audio>
+    <hr>
+    <h1>Vamos aprender a hospedar vídeos no nosso site.</h1> <!--Praticado (10x)-->
+    <p>Vou hospedar o mesmo vídeo em vários formatos diferentes <br> para que todos os navegadores atuais tenham compatibilidade com o vídeo.</p>
+    <video poster="foto-p.png" width="350px" controls>
+        <source src="videos/meu-video-original.mp4" type="video/mp4">
+        <source src="videos/meu-video-vimeo-youtube.mp4" type="video/mp4">
+        <source src="videos/meu-video.webm.webm" type="video/webm">
+        <p>O seu navegador <strong>não</strong> possui compatibilidade com a reprodução de vídeo!</p>
+    </video>
+    <hr>
+    <h1>Aqui vamos incorporar vídeos pelo Youtube e pelo Vimeo:</h1> <!--Praticado 10x-->
+    <p>O vídeo abaixo foi incorporado pelo Youtube &darr;</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HRdNfVpQslc?si=SNypvEIyNV6xvBAX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>O vídeo abaixo foi incorporado pelo Vimeo &darr;</p>
+    <iframe src="https://player.vimeo.com/video/887180375?h=8aba7dff1c" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/887180375">MISALIGNED dir. Marta Magnuska</a> from <a href="https://vimeo.com/user102968961">Animoon</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<hr>
+<h1>Edson Augusto Medeiros do Amaral, Maykon Alexandre Medeiros do Amaral, Kairo Alexandre Medeiros dos Santos, Luzanira Medeiros dos Santos, ,adadww</h1>
+</body>
+</html>

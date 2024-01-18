@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com pseudo's</title>
+    <style>
+        a:visited{
+            color: black;
+        }
+
+        a:active{
+            background-color: yellow;
+        }
+
+        #Primeiro::before{
+            content: '↣';
+        }
+
+        #Primeiro::after{
+            content: '↢';
+        }
+
+        #Primeiro:hover{
+            background-color: lightcoral;
+        }
+
+        .Especial{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p id="Primeiro"><a href="https://youtu.be/YMDe9JqXjIg" target="_blank" rel="external">Link para música <q>Deep House</q></a></p>
+    <p class="Especial"><a href="https://youtu.be/xfgBijPAR6s" target="_blank" rel="external">Link para música <q>Ibiza</q></a></p>
+    <p class="Especial"><a href="https://youtu.be/O-fyNgHdmLI?list=PL8jjHhRzhYv1YgOR1Bj3e0ugjemg9T3U5" target="_blank" rel="external">Link para música <q>chilling</q></a></p>
+</body>
+</html>

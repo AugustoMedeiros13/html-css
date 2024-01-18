@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag's</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: sans-serif;
+            background-color: gray;
+        }
+
+        header{
+            padding: 10px;
+            background-color: white;
+            border: 10px groove red;
+            margin: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            border: 10px ridge red;
+            margin: 30px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            padding: 4px;
+            border: 10px double red;
+        }
+
+        article{
+            background-color: gray;
+        }
+
+        article > aside{
+            text-align: center;
+            background-color: black;
+            color: white;
+            border: 3px solid red;
+        }
+
+        nav{
+            background-color: black;
+            padding: 5px;
+            border: 3px double blue;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.767);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: blue;
+            padding-right: 15px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        #assuntos{
+            background-color: lightgray;
+            text-align: justify;
+        }
+
+        #noticias{
+            background-color: darkgray;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam omnis eligendi, dolor est eius minima dolorem corporis, facere neque assumenda voluptatibus quis consequatur tempora ex voluptatem qui. Dignissimos, iste voluptates!</p>
+                <aside>Artigo escrito por Augusto Medeiros</aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae vel sit, voluptate soluta doloremque nisi hic consectetur quasi deserunt autem eos molestiae dolore sed minus provident animi atque est.</p>
+                <aside>Artigo escrito por Augusto Medeiros</aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eveniet amet debitis labore officiis veniam, sunt voluptates repellendus dicta corporis in, ipsum aspernatur! Possimus explicabo, tempore mollitia delectus repellat nulla.</p>
+                <aside>Artigo escrito por Augusto Medeiros</aside>
+            </article>
+            <article>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum neque velit, nostrum excepturi reprehenderit iste optio culpa consequuntur repellat deleniti eum molestiae aliquid? Quam dolores inventore quod, maxime quasi facere!</p>
+                <aside>Artigo escrito por Augusto Medeiros</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Augusto Medeiros</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*
+ Em HTML é 'id' =      em CSS é '#' //Identificador(id) em HTML se aplica #(hashtag) em CSS
+ Em HTML é 'class' =   em CSS é '.' //Classe(class) em HTML se aplica .(ponto) em CSS
+*/
+body{
+    background-color: gray;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h1#Principal{
+    text-align: center;
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+.Básico{
+    color: red;
+}
+
+.Intermediário{
+    color: green;
+}
+
+.Avançado{
+    color: blue;
+}

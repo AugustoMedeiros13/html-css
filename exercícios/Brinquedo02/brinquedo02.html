@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando ensinamentos</title>
+    <style>
+        a:visited{
+            color: black;
+          }
+
+          a:active{
+            color: yellow;
+          }
+
+          a::before{
+            content: '↪ ';
+          }
+
+          a::after{
+            content: ' ↩';
+          }
+
+          #Primeira:hover{
+            background-color: green;
+          }
+
+          .Principal{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+          }
+
+          .Especial{
+            background-color: red;
+          }
+    </style>
+</head>
+<body>
+    <h1>Personalizando link's</h1>
+    <ul>
+        <li id="Primeira"><a href="https://youtu.be/VnjdikpgR0E" target="_blank" rel="external">Músicas <q>Whiskye Blue's</q></a></li>
+        <li class="Principal"><a href="https://youtu.be/Q0AVb8_lrgQ" target="_blank" rel="external">Música <q>Human</q></a></li>
+        <li class="Especial"><a href="https://youtu.be/M-h2KwQ2o4Q" target="_blank" rel="external">Música de <q>Nelly Furtado</q></a></li>
+    </ul>
+</body>
+</html>
