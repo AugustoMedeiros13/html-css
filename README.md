@@ -25,23 +25,23 @@ Estou aprendendo a criar sites, e agora vou gerenciar meus repositórios.
 <hr>
 <a href="https://augustomedeiros13.github.io/html-css/exercícios/ex010/">Meu exercício 10 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex011/ex011.html">Meu exercício 11 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/exerc%C3%ADcios/ex011/ex011.html">Meu exercício 11 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex012/ex012.html">Meu exercício 12 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/exerc%C3%ADcios/ex012/ex012.html">Meu exercício 12 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex013/ex013.html">Meu exercício 13 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/exerc%C3%ADcios/ex013/ex013.html">Meu exercício 13 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex014/ex014.html">Meu exercício 14 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/exerc%C3%ADcios/ex014/ex014.html">Meu exercício 14 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex015/ex015.html">Meu exercício 15 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/exerc%C3%ADcios/ex015/ex015.html">Meu exercício 15 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex016/ex016.html">Meu exercício 16 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/exerc%C3%ADcios/ex016/ex016.html">Meu exercício 16 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex017/">Meu exercício 17 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/exerc%C3%ADcios/ex017/ex017.html">Meu exercício 17 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex018/">Meu exercício 18 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex018/fontes01.html">Meu exercício 18 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex019/">Meu exercício 19 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/exerc%C3%ADcios/ex019/seletor01.html">Meu exercício 19 em html</a>
 <hr>
 <a href="https://augustomedeiros13.github.io/html-css/exercícios/ex020/">Meu exercício 20 em html</a>
 <hr>
