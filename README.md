@@ -47,10 +47,10 @@ Estou aprendendo a criar sites, e agora vou gerenciar meus repositórios.
 <hr>
 <a href="https://augustomedeiros13.github.io/html-css/exercícios/ex021/">Meu exercício 21 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/desafios/desafio01/">Meu primeiro desafio em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/desafios/desafio01/desafio01.html">Meu primeiro desafio em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/desafios/desafio02/">Meu desafio 02 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/desafios/desafio02/desafio02.html">Meu desafio 02 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/desafios/desafio03/">Meu desafio 03 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/desafios/desafio03/desafio03.html">Meu desafio 03 em html</a>
 <hr>
-<a href="https://augustomedeiros13.github.io/html-css/desafios/desafio04/">Meu desafio 04 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/desafios/desafio04/android.html">Meu desafio 04 em html</a>
