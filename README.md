@@ -15,6 +15,6 @@ Estou aprendendo a criar sites, e agora vou gerenciar meus repositórios.
 
 <a href="https://augustomedeiros13.github.io/html-css/exercícios/ex006/">Meu exercício 06 em html</a>
 
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex007/html4.html">Meu exercício 07 em html</a>
+<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex007/">Meu exercício 07 em html</a>
 
 <a href="https://augustomedeiros13.github.io/html-css/exercícios/ex008/">Meu exercício 08 em html</a>
