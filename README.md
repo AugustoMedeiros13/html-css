@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites, e agora vou gerenciar meus repositórios.
 
-<a href="https://augustomedeiros13.github.io/exercícios/ex001/">Meu primeiro exercício em HTML5</a>
+<a href="https://exercícios/ex001/">Meu primeiro exercício em HTML5</a>
