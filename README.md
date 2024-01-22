@@ -3,6 +3,8 @@
 
 Estou aprendendo a criar sites, e agora vou gerenciar meus repositórios.
 
+<a href="https://augustomedeiros13.github.io/html-css/exercícios/">Minha pasta de exercícios</a>
+
 <a href="https://augustomedeiros13.github.io/html-css/exercícios/ex001/">Meu primeiro exercício em HTML5</a>
 
 <a href="https://augustomedeiros13.github.io/html-css/exercícios/ex002/">Meu exercício 02 em html</a>
