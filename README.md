@@ -47,7 +47,7 @@ Estou aprendendo a criar sites, e agora vou gerenciar meus repositórios.
 <hr>
 <a href="https://augustomedeiros13.github.io/html-css/exerc%C3%ADcios/ex021/caixa02.html">Meu exercício 21 em html</a>
 <hr>
-<a href="https://augustomedeiro13.github.io/html-css/exercícios/ex022/index.html">Meu exercício 22 em html</a>
+<a href="https://augustomedeiro13.github.io/html-css/exercícios/ex022/fundo001.html">Meu exercício 22 em html</a>
 <hr>
 <a href="https://augustomedeiros13.github.io/html-css/desafios/desafio01/desafio01.html">Meu primeiro desafio em html</a>
 <hr>
