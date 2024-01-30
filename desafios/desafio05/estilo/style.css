@@ -95,6 +95,8 @@ section.imagem > p {
     display: inline-block;
 
     text-shadow: 1px 1px 3px black;
+
+    border-radius: 7px;
 }
 
 section#img01 {
