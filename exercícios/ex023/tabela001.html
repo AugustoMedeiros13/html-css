@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas em htmç5</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+            text-align: center;
+
+            margin-top: 50px;
+        }
+
+        table{
+            margin: auto;
+    
+            width: 400px;
+
+            border-collapse: collapse;
+
+            text-align: center;
+        }
+
+        tr{
+            background-color: gray;
+        }
+
+        td{
+            border: 1px solid black;
+
+            padding: 10px;
+        }
+
+        td.tr1{
+            background-color: red;
+        }
+
+        td.tr2{
+            background-color: green;
+        }
+
+        td.tr3{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <tr> <!--Primeira linha-->
+            <td  class="tr1">A1</td>
+            <td  class="tr1">B1</td>
+            <td  class="tr1">C1</td>
+        </tr>
+
+        <tr> <!--Segunda linha-->
+            <td  class="tr2">A2</td>
+            <td  class="tr2">B2</td>
+            <td  class="tr2">C2</td>
+        </tr>
+
+        <tr> <!--Terceira linha-->
+            <td  class="tr3">A3</td>
+            <td  class="tr3">B3</td>
+            <td  class="tr3">C3</td>
+        </tr>
+
+        <tr> <!--Quarta linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+    <!--
+        HIERARQUIA DE TABELAS (SIMPLES)
+        -
+        TABLE = Tabela
+        -
+        TABLE ROW = Linhas de tabela
+        -
+        TABLE HEADER = Cabeçalho da tabela
+        -
+        TABLE DATA = Dados de tabaela
+        -
+    -->
+</body>
+</html>
