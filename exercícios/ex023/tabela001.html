@@ -8,9 +8,11 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
 
-            text-align: center;
-
             margin-top: 50px;
+        }
+
+        h1{
+            text-align: center;
         }
 
         table{
@@ -20,29 +22,22 @@
 
             border-collapse: collapse;
 
-            text-align: center;
-        }
-
-        tr{
-            background-color: gray;
+            width: 400px;
+            height: 400px;
         }
 
         td{
+            padding: 10px;
+
             border: 1px solid black;
 
-            padding: 10px;
+            text-align: left; /*Alinhamento Horizontal*/
+            vertical-align: middle; /*Alinhamento Vertical*/
         }
 
-        td.tr1{
-            background-color: red;
-        }
-
-        td.tr2{
-            background-color: green;
-        }
-
-        td.tr3{
-            background-color: blue;
+        .numero{
+            text-align: right;
+            vertical-align: middle;
         }
     </style>
 </head>
@@ -50,26 +45,26 @@
     <h1>Minha primeira tabela</h1>
     <table>
         <tr> <!--Primeira linha-->
-            <td  class="tr1">A1</td>
-            <td  class="tr1">B1</td>
-            <td  class="tr1">C1</td>
+            <td>A1</td>
+            <td class="numero">1</td>
+            <td>C1</td>
         </tr>
 
         <tr> <!--Segunda linha-->
-            <td  class="tr2">A2</td>
-            <td  class="tr2">B2</td>
-            <td  class="tr2">C2</td>
+            <td>A2</td>
+            <td class="numero">2</td>
+            <td>C2</td>
         </tr>
 
         <tr> <!--Terceira linha-->
-            <td  class="tr3">A3</td>
-            <td  class="tr3">B3</td>
-            <td  class="tr3">C3</td>
+            <td>A3</td>
+            <td class="numero">3</td>
+            <td>C3</td>
         </tr>
 
         <tr> <!--Quarta linha-->
             <td>A4</td>
-            <td>B4</td>
+            <td class="numero">4</td>
             <td>C4</td>
         </tr>
     </table>

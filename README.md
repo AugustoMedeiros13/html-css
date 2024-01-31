@@ -49,6 +49,8 @@ Estou aprendendo a criar sites, e agora vou gerenciar meus repositórios.
 <hr>
 <a href="https://augustomedeiros13.github.io/html-css/exerc%C3%ADcios/ex022/fundo001.html" target="_blank" rel="external">Meu exercício 22 em html</a>
 <hr>
+<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex023/tabela001.html" target="_blank" rel="external">Meu exercício 23 em html</a>
+<hr>
 <a href="https://augustomedeiros13.github.io/html-css/desafios/desafio01/desafio01.html" target="_blank" rel="external">Meu primeiro site com HTML5 e CSS3</a>
 <hr>
 <a href="https://augustomedeiros13.github.io/html-css/desafios/desafio02/desafio02.html" target="_blank" rel="external">Meu segundo site com HTML5 e CSS3</a>
@@ -58,5 +60,3 @@ Estou aprendendo a criar sites, e agora vou gerenciar meus repositórios.
 <a href="https://augustomedeiros13.github.io/html-css/desafios/desafio04/android.html" target="_blank" rel="external">Meu quarto site com HTML5 e CSS3</a>
 <hr>
 <a href="https://augustomedeiros13.github.io/html-css/desafios/desafio05/cordel-moderno.html" target="_blank" rel="external">Meu quinto site com HTML5 e CSS3</a>
-<hr>
-<a href="https://augustomedeiros13.github.io/html-css/exercícios/ex023/tabela001.html" target="_blank" rel="external">Meu exercício 23 em html</a>
