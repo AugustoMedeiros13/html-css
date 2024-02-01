@@ -7,9 +7,13 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+             CAPTION
              THEAD
+                TR, TD, TH
              TBODY
+                TR, TD, TH
              TFOOT
+                TR, TD, TH
     -->
     <style>
         body{
@@ -21,6 +25,7 @@
         table{
             margin: auto;
             margin-top: 50px;
+            margin-bottom: 50px;
 
             text-align: center;
 
@@ -29,24 +34,38 @@
             border-collapse: collapse;
         }
 
-        td, th{
-            border: 1px solid black;
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
 
             padding: 10px;
+
+            background-color: lightgray;
         }
 
         thead, tfoot{
             background-color: gray;
             color: white;
         }
+
+        td, th{
+            border: 1px solid black;
+
+            padding: 10px;
+        }
+
+        th#populacao{
+            width: 100px;
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" id="populacao">População</th>
         </thead>
 
         <tbody>
