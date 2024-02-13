@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá, mundo!</title>
+    <style>
+        body {
+            text-align: center;
+
+            background-color: darkgray;
+            color: black;
+        }
+
+        table {
+            margin: auto;
+
+            border-collapse: collapse;
+
+            width: 300px;
+        }
+
+        td {
+            border: 1px solid black;
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <tr>
+            <td colspan="2">0 e 1</td>
+            <td rowspan="2">2</td>
+        </tr>
+        <tr>
+            <td colspan="2">3 e 4</td>
+        </tr>
+        <tr>
+            <td colspan="2">5 e 6</td>
+            <td rowspan="2">7</td>
+        </tr>
+        <tr>
+            <td colspan="2">8 e 9</td>
+        </tr>
+        <tr>
+            <td colspan="2">10 e 11</td>
+            <td rowspan="2">12</td>
+        </tr>
+        <tr>
+            <td colspan="2">13 e 14</td>
+        </tr>
+        <tr>
+            <td colspan="2">15 e 16</td>
+            <td>17</td>
+        </tr>
+    </table>
+</body>
+</html>
